@@ -27,3 +27,19 @@ console.log("Hola soy", nombre);
 console.log(curso);
 
 console.log(maxIntentos);
+
+// --- Entrada del usuario ---
+
+let nombreUsuario = prompt('Como te llamas?');
+
+let edadUsuario = Number(prompt('Cual es tu edad?'));
+
+// --- Salida al usuario ---
+
+alert("Hola " + nombreUsuario + ", tienes " + edadUsuario + " años.");
+
+console.log('Nombre:', nombreUsuario);
+console.log('Edad:', edadUsuario);
+
+console.log(typeof nombreUsuario);
+console.log(typeof edadUsuario);
