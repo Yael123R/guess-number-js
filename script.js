@@ -31,7 +31,6 @@ console.log(maxIntentos);
 // --- Entrada del usuario ---
 
 let nombreUsuario = prompt('Como te llamas?');
-
 let edadUsuario = Number(prompt('Cual es tu edad?'));
 
 // --- Salida al usuario ---
@@ -43,3 +42,31 @@ console.log('Edad:', edadUsuario);
 
 console.log(typeof nombreUsuario);
 console.log(typeof edadUsuario);
+
+// --- Operadores aritméticos ---
+
+let a = 20;
+let b = 7;
+
+console.log('Suma:', a + b);
+console.log('Resta:', a - b);
+console.log('Multiplicacion:', a * b);
+console.log('Division:', a / b);
+console.log('Modulo:', a % b);
+
+// Forma 1: Concatenación con +
+
+let saludo1 = 'Hola ' + nombreUsuario + ', tienes ' + edadUsuario + ' años.';
+console.log(saludo1);
+
+// Forma 2: Template literals con `` (backticks)
+
+let saludo2 = `Hola ${nombreUsuario}, tienes ${edadUsuario} años.`;
+console.log(saludo2);
+
+// --- Calculadora de edad ---
+
+let anioActual = 2026;
+let anioNacimiento = anioActual - Number(edadUsuario);
+
+console.log(`Hola ${nombreUsuario}, naciste aproximadamente en ${anioNacimiento}.`)
