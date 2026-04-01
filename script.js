@@ -63,6 +63,8 @@ console.log(`Hola ${nombreUsuario}, naciste aproximadamente en ${anioNacimiento}
 
 let ciudad = prompt("En que ciudad vives?");
 
+alert(`Hola ${nombreUsuario}, tienes ${edadUsuario} años y vives en ${ciudad}.`)
+
 console.log(`Hola ${nombreUsuario}, tienes ${edadUsuario} años y vives en ${ciudad}.`);
 
 // --- Segundo Reto ---
