@@ -1,31 +1,19 @@
 console.log('Hola desde JavaScript!');
 
 let nombre = 'Yael';
-
 let edad = 20;
-
 let estaAprendiendo = true;
-
 const curso = 'Code 101';
-
 const maxIntentos = 10;
 
 console.log(nombre);
-
 console.log(edad);
-
 console.log(estaAprendiendo);
-
 console.log(typeof nombre);
-
 console.log(typeof edad);
-
 console.log(typeof estaAprendiendo);
-
 console.log("Hola soy", nombre);
-
 console.log(curso);
-
 console.log(maxIntentos);
 
 // --- Entrada del usuario ---
@@ -69,4 +57,25 @@ console.log(saludo2);
 let anioActual = 2026;
 let anioNacimiento = anioActual - Number(edadUsuario);
 
-console.log(`Hola ${nombreUsuario}, naciste aproximadamente en ${anioNacimiento}.`)
+console.log(`Hola ${nombreUsuario}, naciste aproximadamente en ${anioNacimiento}.`);
+
+// --- Primer Reto ---
+
+let ciudad = prompt("En que ciudad vives?");
+
+console.log(`Hola ${nombreUsuario}, tienes ${edadUsuario} años y vives en ${ciudad}.`);
+
+// --- Segundo Reto ---
+
+let edadNum = parseInt(edadUsuario);
+let anio100 = anioActual + (100 - edadNum);
+
+console.log(`Cumpliras 100 años en el año ${anio100}.`);
+
+// --- Tercer Reto ---
+
+if (edadNum >= 18) {
+    console.log("Acceso Concedido. Eres mayor de edad.");
+} else {
+    console.log("Acceso Restringido. Eres menor de edad.");
+}
